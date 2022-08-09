@@ -1,0 +1,264 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* h1{
+  color: rgb(10, 10, 10);
+  background: rgb(245, 234, 234);
+  
+} */
+
+
+.navbar {
+  font-family: 'Varela Round', sans-serif;
+  /* border: 1px solid rgb(225, 225, 225); */
+  border-radius: 23px;
+  font-weight: 650;
+  height: 28px;
+  justify-content: center;
+  margin: 0px auto;
+  /* width: 100%; */
+  /* width: 900px; */
+  /* display: flex; */
+}
+
+.bar {
+  /* text-shadow: 1px 1px 1px black; */
+  /* margin-left: 20px; */
+  color: rgb(123, 59, 10);
+  flex-direction: row;
+  font-size: 40px;
+  margin: 5px 5px;
+  display: block;
+  height: 41px;
+  display: none;
+}
+
+/* .bar i{
+
+} */
+.checkbox {
+  display: none;
+}
+
+.navul {
+  background-color: rgb(16, 17, 31);
+  border: 1px solid rgba(0, 82, 67, 0);
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 97%; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+  /* height: 3%; */
+}
+
+/* .navul:hover{ */
+/* border: 1px solid rgba(60, 60, 60, 0.83); */
+/* border-radius: 23px; */
+/* } */
+.navulli {
+  padding: 4px 10px;
+  list-style: none;
+  height: 38px;
+}
+
+.h {
+  margin: 0 auto;
+}
+
+.footul {
+  background-color: rgb(43, 43, 58);
+  /* margin-top: 100vh; */
+}
+
+.ullia {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+  /* text-shadow: 1px 2px black; */
+  font-size: 20px;
+}
+
+.ullia:hover {
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+
+}
+
+.mor {
+  height: 2px;
+}
+
+.opt {
+  background-color: hsl(0, 0%, 1%);
+  color: rgb(129, 58, 30);
+  padding: 5px;
+  font-size: 20px;
+}
+
+.component {
+  /* scroll-behavior: auto; */
+  /* box-sizing: border-box; */
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: inline; */
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
+}
+
+.part {
+  background: linear-gradient(to right, rgb(172, 132, 102), rgb(182, 162, 148));
+  border: 1px solid rgb(94, 94, 94);
+  margin: 13px 15px;
+  padding: 20px 30px;
+  width: 300px;
+  height: inherit;
+  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+.cntnr {
+  /* border: 1px solid black; */
+  background-color: rgb(250, 247, 247);
+  display: flex;
+  /* height: inherit; */
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.cntnr img {
+  border-radius: 10px;
+  width: 550px;
+  height: inherit;
+}
+
+.cnimg {
+  background-color: rgb(230, 149, 149);
+}
+
+.wrt {
+  padding: 30px;
+  padding-right: 50px;
+  font-size: 20px;
+  width: 600px;
+}
+
+.wrt h1 {
+  color: rgb(62, 52, 105);
+  font-family: 'Varela Round', sans-serif;
+  /* font-weight: 700; */
+}
+
+.wrt p {
+  color: gray;
+}
+
+.wrt-btn {
+  background-color: rgb(248, 62, 62);
+  color: white;
+  border-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.hhh {
+  margin: 4px auto;
+  margin-bottom: 60px;
+  width: 330px;
+
+}
+
+.hh {
+  margin-bottom: 50px;
+  margin: 10px auto;
+  width: 350px;
+
+}
+
+.hhs {
+  min-height: 40vh;
+  margin-bottom: 89px;
+  width: 50%;
+  margin: 5px auto;
+
+}
+
+.uu {
+  margin: 10px auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.uu p {
+  text-align: left;
+}
+
+.datebg {
+  width: 120px;
+  font-size: 15px;
+}
+
+.hhs {
+  height: 500px;
+  overflow-y: scroll;
+  border: 0.2px solid rgb(209, 209, 209);
+  /* background-color: rgb(247, 247, 247); */
+
+}
+
+.hg {
+  width: 35%;
+  color: rgba(0, 0, 0, 0.365);
+  margin: 10px auto;
+}
