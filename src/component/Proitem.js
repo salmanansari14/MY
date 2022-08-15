@@ -30,8 +30,8 @@ function Proitem({ todo, Ondelete }) {
                 <label className="form-check-label my-3" htmlFor="flexCheckChecked"> Complete Task </label> <br />
             </div>
 
-            <button className="btn-danger btn btn-sm" onClick={onChangee} >Completed</button>
-            <hr />
+            <button className="btn-danger btn btn-sm" onClick={onChangee} >Done</button>
+            <hr className="hrr" />
         </div>
         // onClick={() => { Ondelete(todo) }}
     )

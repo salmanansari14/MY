@@ -2,7 +2,6 @@ import '../App.css';
 import React, { useState } from 'react';
 
 function Cards({ addTodo }) {
-
     const [title, settitle] = useState('');
     const [desc, setdesc] = useState('');
 
